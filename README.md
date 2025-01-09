@@ -100,10 +100,11 @@ You can now navigate through your markdown-generated pages, styled with your cus
 
 ---
 
-## Customizing the Template
+## Customizing the Template and the css
 
 The HTML pages are generated using a custom template (`template.html`). You can modify this template to adjust the structure and styling of the generated pages. The `{{ Title }}` and `{{ Content }}` placeholders will be replaced with the title (from the H1 header in your markdown) and the HTML content (from the markdown), respectively.
 
+The default css file is present `static/index.css` you can modify that to suit your needs
 ---
 
 ## .gitignore Configuration
