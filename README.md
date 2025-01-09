@@ -54,19 +54,15 @@ cd ssg-project
 
 ### 2. Install Dependencies
 
-Ensure you have Python 3.x installed. You can install the required dependencies by running:
-
-```bash
-pip install -r requirements.txt
-```
+Ensure you have Python >= 3.9 installed.
 
 ### 3. Add Your Markdown Content
 
 To add content for your site:
-- Place your markdown files inside the `content/` folder. For example, you can create `content/index.md`, `content/about.md`, etc.
+- Place your markdown files inside the `content/` folder. For example, you can create `content/index.md`, `content/about/index.md`, etc.
+- To link between files you can include a link in files based on there directory sructure For example in `content/index.md` to link to the about page in `content/about/index.md` you can link it as `/about`
 - You can organize the files in subdirectories as needed (e.g., `content/majesty/index.md`).
 
-> **Note**: The `content/` folder and its files are not pushed to GitHub due to the `.gitignore` configuration. The structure will be maintained, but the content will not be uploaded to the remote repository.
 
 ### 4. Add Static Assets (CSS & Images)
 
@@ -74,7 +70,6 @@ To add custom CSS or images for your site:
 - Place your CSS file (e.g., `static/index.css`) in the `static/` folder.
 - Add images to `static/images/`.
 
-> **Note**: The `static/` folder is also ignored by Git, so the images and content will not be pushed to GitHub.
 
 ### 5. Running the Generator
 
