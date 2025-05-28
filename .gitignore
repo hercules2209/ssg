@@ -1,7 +1,1 @@
 __pycache__/
-public/
-content/*
-static/images/*
-
-!content/.gitkeep
-!static/images/.gitkeep
